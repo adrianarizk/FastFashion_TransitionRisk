@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Fast Fashion transition risk, Sustainability Consultants
 
 This repository contains the analytical pipeline developed for a Green Finance / Sustainability project focused on assessing transition risk in the fast fashion industry.
@@ -50,26 +49,5 @@ From the project root:
 pip install -r requirements.txt
 python main.py
 
-=======
-# FastFashion_TransitionRisk
-## Project Structure
 
-```
-FastFashion_TransitionRisk/
-├── data/
-│   ├── raw/                  # Original dataset
-│   └── processed/            # Cleaned data and analysis outputs
-│
-├── src/
-│   ├── data_processing.py    # Data cleaning and preprocessing
-│   └── emission_cost.py      # Emissions aggregation and carbon cost computation
-│
-├── notebooks/
-│   └── debug_pipeline.ipynb  # Inspection and sanity checks
-│
-├── main.py                   # Single entry point to reproduce the analysis
-├── requirements.txt
-└── README.md
-```
->>>>>>> 315cc1f (Fix project structure formatting in README)
 
