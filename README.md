@@ -8,7 +8,6 @@ The analysis quantifies brand-level carbon emissions and translates them into po
 
 ## Project Structure
 FastFashion_TransitionRisk/
-│
 ├── data/
 │ ├── raw/ # Original dataset
 │ └── processed/ # Cleaned data and analysis outputs
@@ -16,6 +15,9 @@ FastFashion_TransitionRisk/
 ├── src/
 │ ├── data_processing.py # Data cleaning and preprocessing
 │ └── emission_cost.py # Emissions aggregation and carbon cost computation
+│
+├── notebooks/
+│ └── debug_pipeline.ipynb # Inspection and sanity checks
 │
 ├── main.py # Single entry point to reproduce the analysis
 ├── requirements.txt
